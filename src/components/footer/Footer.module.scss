@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #f2f4f6;
+}
+
+.info{
+    display: grid;
+    justify-items: center;
+
+    h5{
+        margin:0;
+    }
+}
+
+.detail_info{
+    display: flex;
+    gap:10px;
+    color:#495057;
+    font-size: 13px;
+}
+.detail_info p::after{
+    margin:0 5px;
+    width: 1px;
+    color:#d4d9dd;
+    content: "|";
+}

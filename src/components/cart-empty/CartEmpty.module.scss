@@ -1,0 +1,30 @@
+.cart_empty {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    img {
+        width: 320px;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+
+    p {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    a {
+        color: black;
+        text-decoration: underline;
+        cursor: pointer;
+
+        &:hover{
+            color: #00c4c4;
+        }
+    }
+}

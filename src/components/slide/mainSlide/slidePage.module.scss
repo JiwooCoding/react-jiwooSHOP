@@ -1,0 +1,52 @@
+
+
+.page_container img{
+    width: 100%;
+    height: 430px;
+    object-fit: cover;
+}
+
+
+.customNextArrow{
+    color: white;
+}
+
+.customPrevArrow {
+    color: white;
+}
+
+/* slidePage.module.scss */
+
+.slideContent {
+    position: relative;
+  }
+  
+  .textOverlay {
+    position: absolute;
+    top: 60%;
+    left:28%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+  }
+  
+  .textOverlay h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .textOverlay p {
+    font-size: 1.2em;
+  }
+
+  .textOverlay2{
+    position: absolute;
+    top: 60%;
+    left:30%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: #fff;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 50px 70px 50px 220px;
+    border-radius: 2px;
+  }
